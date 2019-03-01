@@ -43,6 +43,8 @@ function nextProfile() {
       <li class="list-group-item">Preference: ${currentProfile.gender} looking for ${currentProfile.lookingfor}</li>
     </ul>
     `;
+
+  document.getElementById('imageDisplay').innerHTML = `<img src="${currentProfile.image}">`;
 }
 
 // Profile Iterator
